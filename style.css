@@ -63,7 +63,7 @@ a:hover{
     color: lightblue;
 }
 
-@media(max-width: 500px){
+@media(max-width: 520px){
     .header-cus h1{
         font-size: 23px;
     }
