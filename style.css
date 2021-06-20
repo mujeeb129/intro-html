@@ -14,9 +14,13 @@ body {
 }
 
 .heading-cus{
-    font-size: 45px;
+    font-size: 35px;
     padding: 15px 0;
     padding-top: 30px;
+}
+
+.header-cus .logo-heading{
+    font-size: 45px;
 }
 
 .container-fluid{
@@ -24,13 +28,14 @@ body {
     margin: 0;
 }
 
-.header-cus{
+.header-cus h1{
   padding-top: 70px;
   width: 100%;
   padding-left: 28px;
   padding-bottom: 5px;
   background-color: black;
   text-align: left;
+  font-size: 30px;
 }
 
 h1 {
@@ -56,4 +61,23 @@ a{
 
 a:hover{
     color: lightblue;
+}
+
+@media(max-width: 500px){
+    .header-cus h1{
+        font-size: 23px;
+    }
+    .logo-heading a{
+        font-size: 40px;
+    }
+    body{
+        font-size: 18px;
+    }
+    .heading-cus{
+        font-size: 28px;
+    }
+    .about-section{
+        margin: 0 15px;
+        font-size: 18px;
+}
 }
